@@ -16,18 +16,17 @@ function destructivelyRemoveFirstCat(Otis){
     cats.shift(Otis); 
     return cats;
 }
-function appendcat(Tomy){
+function appendCat(Tomy){
     return cats.concat(Tomy);
-    return cats;
 }
-function appendcat(Ome){
+function prependCat(Ome){
     const newCats =[Ome, ...cats];
     return newCats;
 }
 function PrependCat(){
     return cats.slice[a.cats.length -1];
 }
-function removeLastcat(){
+function removeLastCat(){
     return cats.slice(0, cats.length -1);
 
 }
